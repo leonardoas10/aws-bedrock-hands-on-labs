@@ -1,9 +1,7 @@
 import json
 import os
-import sys
 import boto3
 from dotenv import load_dotenv
-from IPython.display import display,Markdown,clear_output
 
 # Construct the path to the .env file
 env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')

@@ -4,4 +4,4 @@
 
 ---
 
-### [AWS Bedrock Learning Path]('https://explore.skillbuilder.aws/learn/learning_plan/view/2068/plan')
+### [AWS Bedrock Learning Path](https://explore.skillbuilder.aws/learn/learning_plan/view/2068/plan)
