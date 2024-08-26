@@ -2,9 +2,7 @@
 import os
 import boto3
 from dotenv import load_dotenv
-from langchain.agents import load_tools
-from langchain.agents import Tool
-from langchain.agents import AgentExecutor, create_react_agent
+from langchain.agents import load_tools, Tool, AgentExecutor, create_react_agent
 from langchain_aws import ChatBedrock
 from langchain import LLMMathChain
 from langchain_core.prompts import PromptTemplate
@@ -18,7 +16,6 @@ load_dotenv(dotenv_path=env_path)
 bedrock_client = boto3.client('bedrock-runtime',region_name=os.environ.get("AWS_REGION", None))
 
 modelId = "anthropic.claude-3-sonnet-20240229-v1:0"
-bedrock_client = boto3.client('bedrock-runtime',region_name=os.environ.get("AWS_DEFAULT_REGION", None))
 
 react_agent_llm = ChatBedrock(model_id=modelId, client=bedrock_client)
 math_chain_llm = ChatBedrock(model_id=modelId, client=bedrock_client)
