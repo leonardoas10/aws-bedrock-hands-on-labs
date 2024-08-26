@@ -1,10 +1,10 @@
-# AWS Bedrock Hands-On Labds | [Skill Builder - Learning Path](https://explore.skillbuilder.aws/learn/learning_plan/view/2068/plan)
+# AWS Bedrock Hands-On Labds | [Skill Builder - Generative AI Learning Path](https://explore.skillbuilder.aws/learn/learning_plan/view/2068/plan)
 
 💡 **Before read:** You need to access in your Skill Builder account for see the Learning Path
 
 ## Overview 🤔
 
-This repository is part of the [Skill Builder - Learning Path](https://explore.skillbuilder.aws/learn/learning_plan/view/2068/plan) and provides hands-on experience with generative AI models in Amazon Bedrock. The labs are designed to help you complete specific steps in the learning path, covering tasks like text generation, summarization, question answering, and chatbot creation.
+This repository is part of the [Skill Builder - Generative AI Learning Path](https://explore.skillbuilder.aws/learn/learning_plan/view/2068/plan) and provides hands-on experience with generative AI models in Amazon Bedrock. The labs are designed to help you complete specific steps in the learning path, covering tasks like text generation, summarization, question answering, and chatbot creation.
 
 ---
 
